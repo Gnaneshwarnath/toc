@@ -1,0 +1,158 @@
+Automaton Simulator, v1.0
+turing {
+	alphabet {abcd*_}
+	state {
+		initial {yes}
+		coord {278 232}
+	}
+	state {
+		coord {486 139}
+	}
+	state {
+		coord {742 131}
+	}
+	state {
+		coord {969 133}
+	}
+	state {
+		coord {478 404}
+	}
+	state {
+		coord {758 414}
+	}
+	state {
+		coord {974 397}
+	}
+	state {
+		final {yes}
+		coord {761 273}
+	}
+	edge 0 1 {
+		transits {a}
+		offset {0.6788299008771539}
+		direction {R}
+		output {c}
+	}
+	edge 1 2 {
+		transits {_}
+		offset {0.5235987755982988}
+		direction {L}
+		output {_}
+	}
+	edge 2 3 {
+		transits {a}
+		offset {0.5235987755982988}
+		direction {L}
+		output {_}
+	}
+	edge 0 4 {
+		transits {b}
+		offset {0.4811967803426993}
+		direction {R}
+		output {c}
+	}
+	edge 4 5 {
+		transits {_}
+		offset {0.5235987755982988}
+		direction {L}
+		output {_}
+	}
+	edge 5 6 {
+		transits {b}
+		offset {0.5235987755982988}
+		direction {L}
+		output {_}
+	}
+	edge 6 6 {
+		transits {b}
+		offset {1.371112441419795}
+		direction {L}
+		output {b}
+	}
+	edge 3 0 {
+		transits {c}
+		offset {6.3819706360604425}
+		direction {R}
+		output {c}
+	}
+	edge 6 0 {
+		transits {c}
+		offset {1.1723490357407678}
+		direction {R}
+		output {c}
+	}
+	edge 1 1 {
+		transits {a}
+		offset {1.7782925532300993}
+		direction {R}
+		output {a}
+	}
+	edge 3 3 {
+		transits {a}
+		offset {1.39689513765701}
+		direction {L}
+		output {a}
+	}
+	edge 4 4 {
+		transits {a}
+		offset {-0.8198672643969563}
+		direction {R}
+		output {a}
+	}
+	edge 1 1 {
+		transits {b}
+		offset {-1.3952041648447164}
+		direction {R}
+		output {b}
+	}
+	edge 4 4 {
+		transits {b}
+		offset {3.0860941483440762}
+		direction {R}
+		output {b}
+	}
+	edge 6 6 {
+		transits {a}
+		offset {-1.024229362982106}
+		direction {L}
+		output {a}
+	}
+	edge 2 7 {
+		transits {c}
+		offset {0.5235987755982988}
+		direction {R}
+		output {c}
+	}
+	edge 7 5 {
+		transits {c}
+		offset {0.5235987755982988}
+		direction {R}
+		output {c}
+	}
+	edge 3 3 {
+		transits {b}
+		offset {-1.2363882205642025}
+		direction {L}
+		output {b}
+	}
+	label {
+		text {}
+		font {SansSerif 12 -}
+		coord {607 354}
+	}
+	label {
+		text {}
+		font {SansSerif 12 -}
+		coord {510 212}
+	}
+	label {
+		text {}
+		font {SansSerif 12 -}
+		coord {1017 446}
+	}
+	label {
+		text {}
+		font {SansSerif 12 -}
+		coord {926 290}
+	}
+}
